@@ -1,4 +1,4 @@
-package com.qualitest.package1;
+package com.example.package1;
 
 public class Example2 {
     static int a=0;

@@ -1,6 +1,6 @@
-package com.qualitest.package2;
+package com.example.package2;
 
-import com.qualitest.package1.Class1;
+import com.example.package1.Class1;
 
 public class Class3 {
     public static void main(String[] args) {

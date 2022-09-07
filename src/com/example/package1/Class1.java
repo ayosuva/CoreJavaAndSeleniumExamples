@@ -1,4 +1,4 @@
-package com.qualitest.package1;
+package com.example.package1;
 
 public class Class1 {
     public int a=1;//anywhere
