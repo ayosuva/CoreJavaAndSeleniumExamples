@@ -5,6 +5,7 @@ public class Example2 {
     static String str="Hello";
     static boolean _bool=false;
     public static void main(String[] args) {
+        //if statement with int comparison
         if(a==0){
             System.out.println("a=0");
         }
@@ -16,11 +17,17 @@ public class Example2 {
         {
             System.out.println("a is something else");
         }
+        //if statement with string comparison
         if(str.equals("Hello"))
         {
             System.out.println("str is Hello");
         }
+        else
+        {
+            System.out.println("str is something else");
+        }
 
+        //if statement with boolean comparison
         if(_bool)
         {
             System.out.println("true");
