@@ -10,4 +10,9 @@ public class Class3 {
         //System.out.println(c1.c);//default modifiers can't be accessed outside package
         //System.out.println(c1.d);//protected modifiers can't be accessed outside package
     }
+
+    public void method1()
+    {
+        //System.out.println(a);
+    }
 }
