@@ -18,6 +18,9 @@ public class LoopsFileTryCatchDate {
         }catch (Exception ex){
             ex.printStackTrace();
         }
+        finally {
+            System.out.println("I have done my job");
+        }
 
         for (int i = 0; i <=10 ; i++) {
             System.out.println(i+2);
