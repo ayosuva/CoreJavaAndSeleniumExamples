@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class CookiesExample {
     public static void main(String[] args) {
-        WebDriverManager.chromiumdriver().setup();
+        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("http://the-internet.herokuapp.com/javascript_alerts");
         // Add cookie

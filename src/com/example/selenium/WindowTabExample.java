@@ -17,7 +17,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.numberOfWindowsT
 
 public class WindowTabExample {
     public static void main(String[] args) {
-        WebDriverManager.chromiumdriver().setup();
+        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         //driver.manage().window().minimize();

@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 public class IframeExample {
     public static void main(String[] args) {
-        WebDriverManager.chromiumdriver().setup();
+        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://the-internet.herokuapp.com/iframe");

@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class ScreenshotExample {
     public static void main(String[] args) {
-        WebDriverManager.chromiumdriver().setup();
+        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://the-internet.herokuapp.com/windows");

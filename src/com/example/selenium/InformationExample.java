@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class InformationExample {
     public static void main(String[] args) {
-        WebDriverManager.chromiumdriver().setup();
+        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://the-internet.herokuapp.com/windows");

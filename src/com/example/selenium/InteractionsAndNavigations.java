@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class InteractionsAndNavigations {
     public static void main(String[] args) {
-        WebDriverManager.chromiumdriver().setup();
+        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         //driver.get("https://www.selenium.dev/");
         /*driver.get("http://the-internet.herokuapp.com/tables");
