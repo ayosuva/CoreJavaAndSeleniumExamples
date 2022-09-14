@@ -15,7 +15,7 @@ public class CookiesExample {
         // Add cookie
         driver.manage().addCookie(new Cookie("ssid", "ssid-42423"));
         // Get cookie details with named cookie 'foo'
-        Cookie cookie1 = driver.manage().getCookieNamed("foo");
+        Cookie cookie1 = driver.manage().getCookieNamed("ssid");
         System.out.println(cookie1);
         // Get All available cookies
         Set<Cookie> cookies = driver.manage().getCookies();
