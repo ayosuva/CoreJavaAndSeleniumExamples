@@ -3,6 +3,7 @@ package com.example.package1;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -55,8 +56,13 @@ public class LoopsFileTryCatchDate {
         System.out.println(date);
 
         //Adding date
-        SimpleDateFormat dateFormat = new SimpleDateFormat( "dd-MM-yyyy" );
+        SimpleDateFormat dateFormat = new SimpleDateFormat( "dd MMM yyyy" );
         Calendar cal = Calendar.getInstance();
+        try {
+            cal.setTime(dateFormat.parse("04 Feb 2023"));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
         cal.add( Calendar.DATE, 2);
         System.out.println( dateFormat.format(cal.getTime()));
 
