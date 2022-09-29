@@ -4,10 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class LoopsFileTryCatchDate {
     public static void main(String[] args) {
@@ -56,6 +53,12 @@ public class LoopsFileTryCatchDate {
         //String date= simpleDateFormat.format(new SimpleDateFormat("dd/MM/yyyy").parse("08/09/2022"));
         String date= simpleDateFormat.format(new Date());
         System.out.println(date);
+
+        //Adding date
+        SimpleDateFormat dateFormat = new SimpleDateFormat( "dd-MM-yyyy" );
+        Calendar cal = Calendar.getInstance();
+        cal.add( Calendar.DATE, 2);
+        System.out.println( dateFormat.format(cal.getTime()));
 
         //File write
         File file= new File("report.txt");
