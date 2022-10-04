@@ -53,3 +53,5 @@ Hover Actions
 Maven Project
 
 WebTable iterations
+
+Wait examples
