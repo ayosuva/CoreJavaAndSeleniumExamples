@@ -1,6 +1,6 @@
 package com.example.inheritance;
 
-public class MainClas {
+public class MainClass {
     public static void main(String[] args) {
         Child1 child1 = new Child1();
         child1.setName();
