@@ -1,9 +1,6 @@
 package com.example.beginner;
 
-import java.util.HashMap;
-import java.util.Map;
-
-class Unique {
+class UniqueNotRepeatedForLoop {
 
     public static void main(String args[])
     {

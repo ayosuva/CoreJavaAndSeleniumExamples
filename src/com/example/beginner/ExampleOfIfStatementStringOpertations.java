@@ -1,4 +1,4 @@
-package com.example.package1;
+package com.example.beginner;
 
 public class ExampleOfIfStatementStringOpertations {
     static int a=0;
@@ -58,6 +58,9 @@ public class ExampleOfIfStatementStringOpertations {
         int mul=num1*num2;
         int div=num2/num1;
         System.out.println("num1+num2:"+add+"\nnum1-num2:"+Math.abs(sub)+"\nnum1*num2:"+mul+"\nnum2/num1:"+div);
+        System.out.println(Math.min(2,5));
+        System.out.println(Math.max(2,5));
+
 
 
 

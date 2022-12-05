@@ -3,7 +3,7 @@ package com.example.beginner;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Unique1 {
+public class UniqueNotRepeatedHashMap {
     static void occurredOnce(int[] arr, int n)
     {
         HashMap<Integer, Integer> mp = new HashMap<>();
@@ -18,12 +18,19 @@ public class Unique1 {
                 mp.put(arr[i], 1);
         }
 
-        // Traverse the map and print all the
-        // elements with occurrence 1
+        // Traverse the map and print all the elements with occurrence 1
         for (Map.Entry entry : mp.entrySet())
         {
             if (Integer.parseInt(String.valueOf(entry.getValue())) == 1)
-                System.out.print(entry.getKey() + " ");
+                System.out.println(entry.getKey() + " ");
+        }
+
+        for(int i: mp.keySet())
+        {
+            if(mp.get(i)==1)
+            {
+                System.out.println(i);
+            }
         }
     }
 
