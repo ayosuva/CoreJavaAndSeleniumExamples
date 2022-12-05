@@ -1,4 +1,4 @@
-package com.example.beginner;
+package com.example.javaproblems;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -24,7 +24,7 @@ public class UniqueNotRepeatedHashMap {
             if (Integer.parseInt(String.valueOf(entry.getValue())) == 1)
                 System.out.println(entry.getKey() + " ");
         }
-
+        //using keySet
         for(int i: mp.keySet())
         {
             if(mp.get(i)==1)

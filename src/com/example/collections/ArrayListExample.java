@@ -2,6 +2,7 @@ package com.example.collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /**
  * The ArrayList class is a resizable array, which can be found in the java.util package.
@@ -13,17 +14,21 @@ import java.util.Collections;
 public class ArrayListExample {
     public static void main(String[] args) {
         // ArrayList is an Ordered list
-        ArrayList<String> list = new ArrayList<>();
+        //ArrayList<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();
+
         list.add("Volvo");
         list.add("BMW");
         list.add("Ford");
         list.add("Mazda");
         System.out.println(list);//[Volvo, BMW, Ford, Mazda]
         System.out.println(list.get(0));//volvo - Gets value of index 0
+        System.out.println(list.indexOf("Volvo"));//0 - index of an element
         System.out.println(list.size());//4 Size of ArrayList
         System.out.println(list.remove("Volvo"));//Removes value of index 0
         System.out.println(list.size());//3 Size of ArrayList
-        System.out.println(list.set(0, "Volvo"));//it replaces value of index 0
+        System.out.println(list.set(0, "Volvo"));//it changes/replaces value of index 0
+        System.out.println(list.contains("Volvo"));//true  if it is there in the List
         System.out.println(list);//[Volvo, Ford, Mazda]
 
         //Loop through the list

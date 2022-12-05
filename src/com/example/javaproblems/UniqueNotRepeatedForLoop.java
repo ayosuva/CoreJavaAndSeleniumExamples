@@ -1,4 +1,4 @@
-package com.example.beginner;
+package com.example.javaproblems;
 
 class UniqueNotRepeatedForLoop {
 
